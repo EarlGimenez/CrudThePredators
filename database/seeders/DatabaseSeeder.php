@@ -21,6 +21,14 @@ class DatabaseSeeder extends Seeder
             'email' => 'test@example.com',
         ]);
 
+        // Check if spots already exist to avoid duplicates
+        if (Spots::count() > 0) {
+            echo "Tourism spots already exist. Skipping seeding.\n";
+            return;
+        }
+
+        echo "Seeding tourism spots...\n";
+
         // Seed 20 tourism spots
         $spots = [
             [
