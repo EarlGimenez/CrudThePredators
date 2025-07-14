@@ -1,0 +1,126 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+:root {
+    --tropical-teal: #20B2AA;
+    --tropical-coral: #FF7F7F;
+    --tropical-yellow: #FFD700;
+    --tropical-green: #32CD32;
+    --tropical-blue: #00CED1;
+    --tropical-orange: #FF8C00;
+    --tropical-dark: #2F4F4F;
+    --tropical-light: #F0FFFF;
+}
+
+body {
+    background: linear-gradient(135deg, var(--tropical-teal) 0%, var(--tropical-blue) 100%);
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.tropical-card {
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.tropical-btn-primary {
+    background: linear-gradient(45deg, var(--tropical-coral), var(--tropical-orange));
+    border: none;
+    border-radius: 25px;
+    padding: 12px 30px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.tropical-btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(255, 127, 127, 0.4);
+}
+
+.tropical-search-bar {
+    border-radius: 50px;
+    border: 2px solid var(--tropical-yellow);
+    padding: 15px 25px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.tropical-search-bar:focus {
+    border-color: var(--tropical-coral);
+    box-shadow: 0 0 0 0.2rem rgba(255, 127, 127, 0.25);
+}
+
+.spot-card {
+    border-radius: 20px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    border: none;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.spot-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.spot-card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.rating-stars {
+    color: var(--tropical-yellow);
+}
+
+.tropical-badge {
+    background: linear-gradient(45deg, var(--tropical-green), var(--tropical-teal));
+    color: white;
+    border-radius: 15px;
+    padding: 5px 15px;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.hero-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), 
+                url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 320"><path fill="%2320B2AA" fill-opacity="0.1" d="M0,96L48,112C96,128,192,160,288,186.7C384,213,480,235,576,213.3C672,192,768,128,864,128C960,128,1008,192,1032,224L1056,256L1056,320L1032,320C1008,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>') center bottom;
+    background-size: cover;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar {
+    background: rgba(255, 255, 255, 0.95) !important;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-weight: 700;
+    color: var(--tropical-teal) !important;
+    font-size: 1.5rem;
+}
+
+.detail-card {
+    border-radius: 25px;
+    overflow: hidden;
+    background: white;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.detail-card img {
+    height: 400px;
+    object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    .hero-section {
+        min-height: 400px;
+    }
+    
+    .detail-card img {
+        height: 250px;
+    }
+}
