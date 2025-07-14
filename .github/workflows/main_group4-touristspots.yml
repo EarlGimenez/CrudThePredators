@@ -33,6 +33,20 @@ jobs:
         if: steps.check_files.outputs.files_exists == 'true'
         run: composer validate --no-check-publish && composer install --prefer-dist --no-progress
 
+        # 👉 NEW: Setup Node for Vite
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18' # Match your local dev environment
+
+      # 👉 NEW: Install frontend dependencies
+      - name: Install Node modules
+        run: npm ci
+
+      # 👉 NEW: Build Vite assets
+      - name: Build Vite assets
+        run: npm run build
+
       - name: Zip artifact for deployment
         run: zip release.zip ./* -r
 
