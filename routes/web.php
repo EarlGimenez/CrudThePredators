@@ -8,3 +8,5 @@ use App\Livewire\ShowSpot;
 Route::get('/', LandingPage::class)->name('landing');
 Route::get('/destinations', ListSpots::class)->name('spots.list');
 Route::get('/destination/{id}', ShowSpot::class)->name('spots.show');
+
+Route::redirect('/destination', '/destinations');

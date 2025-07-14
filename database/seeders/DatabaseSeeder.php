@@ -28,7 +28,7 @@ class DatabaseSeeder extends Seeder
                 'country' => 'Philippines',
                 'month' => 'December',
                 'description' => 'Famous white sand beach with crystal clear waters and vibrant nightlife.',
-                'image_url' => 'https://via.placeholder.com/400x300/20B2AA/FFFFFF?text=Boracay',
+                'image_url' => 'https://images.unsplash.com/photo-1544551763-46a013bb70d5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
                 'rating' => 4.8,
                 'location' => 'Aklan, Philippines',
                 'highlights' => 'Water sports, Beach parties, Sunset sailing'
@@ -38,7 +38,7 @@ class DatabaseSeeder extends Seeder
                 'country' => 'Philippines',
                 'month' => 'March',
                 'description' => 'UNESCO World Heritage site featuring an underground river through limestone karst.',
-                'image_url' => 'https://via.placeholder.com/400x300/228B22/FFFFFF?text=Palawan',
+                'image_url' => 'https://images.unsplash.com/photo-1537953773345-d172ccf13cf1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
                 'rating' => 4.9,
                 'location' => 'Puerto Princesa, Palawan',
                 'highlights' => 'Cave exploration, Wildlife viewing, Boat tours'
@@ -48,7 +48,7 @@ class DatabaseSeeder extends Seeder
                 'country' => 'Indonesia',
                 'month' => 'June',
                 'description' => 'Stunning ancient rice terraces carved into volcanic hillsides.',
-                'image_url' => 'https://via.placeholder.com/400x300/8FBC8F/FFFFFF?text=Bali+Terraces',
+                'image_url' => 'https://images.unsplash.com/photo-1518548419970-58e3b4079ab2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
                 'rating' => 4.7,
                 'location' => 'Jatiluwih, Bali',
                 'highlights' => 'Photography, Cultural tours, Traditional villages'
@@ -58,7 +58,7 @@ class DatabaseSeeder extends Seeder
                 'country' => 'Peru',
                 'month' => 'May',
                 'description' => 'Ancient Incan citadel perched high in the Andes Mountains.',
-                'image_url' => 'https://via.placeholder.com/400x300/CD853F/FFFFFF?text=Machu+Picchu',
+                'image_url' => 'https://images.unsplash.com/photo-1587595431973-160d0d94add1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
                 'rating' => 4.9,
                 'location' => 'Cusco Region, Peru',
                 'highlights' => 'Hiking, History, Mountain views'
@@ -68,7 +68,7 @@ class DatabaseSeeder extends Seeder
                 'country' => 'Greece',
                 'month' => 'September',
                 'description' => 'Iconic whitewashed buildings overlooking the Aegean Sea with spectacular sunsets.',
-                'image_url' => 'https://via.placeholder.com/400x300/4682B4/FFFFFF?text=Santorini',
+                'image_url' => 'https://images.unsplash.com/photo-1613395877344-13d4a8e0d49e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
                 'rating' => 4.8,
                 'location' => 'Cyclades, Greece',
                 'highlights' => 'Sunset views, Wine tasting, Beach clubs'
@@ -78,7 +78,7 @@ class DatabaseSeeder extends Seeder
                 'country' => 'Maldives',
                 'month' => 'February',
                 'description' => 'Luxury overwater villas in pristine turquoise lagoons.',
-                'image_url' => 'https://via.placeholder.com/400x300/00CED1/FFFFFF?text=Maldives',
+                'image_url' => 'https://images.unsplash.com/photo-1514282401047-d79a71a590e8?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
                 'rating' => 4.9,
                 'location' => 'Various Atolls, Maldives',
                 'highlights' => 'Snorkeling, Spa treatments, Private beaches'
@@ -88,7 +88,7 @@ class DatabaseSeeder extends Seeder
                 'country' => 'China',
                 'month' => 'October',
                 'description' => 'Ancient fortification stretching thousands of kilometers across northern China.',
-                'image_url' => 'https://via.placeholder.com/400x300/696969/FFFFFF?text=Great+Wall',
+                'image_url' => 'https://images.unsplash.com/photo-1508804185872-d7badad00f7d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
                 'rating' => 4.6,
                 'location' => 'Beijing, China',
                 'highlights' => 'Historical significance, Hiking, Photography'
@@ -98,7 +98,7 @@ class DatabaseSeeder extends Seeder
                 'country' => 'Iceland',
                 'month' => 'January',
                 'description' => 'Spectacular northern lights dancing across the Arctic sky.',
-                'image_url' => 'https://via.placeholder.com/400x300/191970/FFFFFF?text=Aurora+Iceland',
+                'image_url' => 'https://images.unsplash.com/photo-1483347756197-71ef80e95f73?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
                 'rating' => 4.8,
                 'location' => 'Reykjavik, Iceland',
                 'highlights' => 'Northern lights, Hot springs, Glacier tours'
@@ -108,7 +108,7 @@ class DatabaseSeeder extends Seeder
                 'country' => 'Tanzania',
                 'month' => 'August',
                 'description' => 'World-famous wildlife reserve with the Great Migration.',
-                'image_url' => 'https://via.placeholder.com/400x300/DEB887/FFFFFF?text=Serengeti',
+                'image_url' => 'https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
                 'rating' => 4.9,
                 'location' => 'Northern Tanzania',
                 'highlights' => 'Wildlife viewing, Great migration, Balloon safaris'
@@ -118,7 +118,7 @@ class DatabaseSeeder extends Seeder
                 'country' => 'Japan',
                 'month' => 'April',
                 'description' => 'Beautiful cherry blossom season in Japan\'s bustling capital.',
-                'image_url' => 'https://via.placeholder.com/400x300/FFB6C1/FFFFFF?text=Tokyo+Sakura',
+                'image_url' => 'https://images.unsplash.com/photo-1522383225653-ed111181a951?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
                 'rating' => 4.7,
                 'location' => 'Tokyo, Japan',
                 'highlights' => 'Hanami festivals, Traditional gardens, City culture'
@@ -128,7 +128,7 @@ class DatabaseSeeder extends Seeder
                 'country' => 'Canada',
                 'month' => 'July',
                 'description' => 'Pristine mountain wilderness with turquoise lakes and glacial peaks.',
-                'image_url' => 'https://via.placeholder.com/400x300/4169E1/FFFFFF?text=Banff',
+                'image_url' => 'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
                 'rating' => 4.8,
                 'location' => 'Alberta, Canada',
                 'highlights' => 'Hiking, Canoeing, Mountain climbing'
@@ -138,7 +138,7 @@ class DatabaseSeeder extends Seeder
                 'country' => 'Jordan',
                 'month' => 'November',
                 'description' => 'Ancient city carved into rose-colored sandstone cliffs.',
-                'image_url' => 'https://via.placeholder.com/400x300/BC8F8F/FFFFFF?text=Petra',
+                'image_url' => 'https://images.unsplash.com/photo-1539650116574-75c0c6d73469?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
                 'rating' => 4.7,
                 'location' => 'Ma\'an Governorate, Jordan',
                 'highlights' => 'Archaeological sites, Desert landscapes, Historical tours'
@@ -148,7 +148,7 @@ class DatabaseSeeder extends Seeder
                 'country' => 'South Africa',
                 'month' => 'February',
                 'description' => 'Iconic flat-topped mountain overlooking Cape Town and the Atlantic Ocean.',
-                'image_url' => 'https://via.placeholder.com/400x300/708090/FFFFFF?text=Table+Mountain',
+                'image_url' => 'https://images.unsplash.com/photo-1580060839134-75a5edca2e99?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
                 'rating' => 4.6,
                 'location' => 'Cape Town, South Africa',
                 'highlights' => 'Cable car rides, Hiking trails, Ocean views'
@@ -158,7 +158,7 @@ class DatabaseSeeder extends Seeder
                 'country' => 'Cambodia',
                 'month' => 'December',
                 'description' => 'Magnificent ancient temple complex and archaeological wonder.',
-                'image_url' => 'https://via.placeholder.com/400x300/8B4513/FFFFFF?text=Angkor+Wat',
+                'image_url' => 'https://images.unsplash.com/photo-1539016662988-1de819d6a4e6?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
                 'rating' => 4.8,
                 'location' => 'Siem Reap, Cambodia',
                 'highlights' => 'Temple exploration, Sunrise views, Historical significance'
@@ -168,7 +168,7 @@ class DatabaseSeeder extends Seeder
                 'country' => 'Ecuador',
                 'month' => 'June',
                 'description' => 'Unique volcanic islands with endemic wildlife and pristine nature.',
-                'image_url' => 'https://via.placeholder.com/400x300/2E8B57/FFFFFF?text=Galapagos',
+                'image_url' => 'https://images.unsplash.com/photo-1544551763-77ef2d0cfc6c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
                 'rating' => 4.9,
                 'location' => 'Galapagos Province, Ecuador',
                 'highlights' => 'Wildlife photography, Snorkeling, Scientific tours'
@@ -178,7 +178,7 @@ class DatabaseSeeder extends Seeder
                 'country' => 'Norway',
                 'month' => 'June',
                 'description' => 'Dramatic fjords with cascading waterfalls and steep mountain walls.',
-                'image_url' => 'https://via.placeholder.com/400x300/4682B4/FFFFFF?text=Norwegian+Fjords',
+                'image_url' => 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
                 'rating' => 4.7,
                 'location' => 'Western Norway',
                 'highlights' => 'Cruise tours, Waterfall viewing, Mountain hiking'
@@ -188,7 +188,7 @@ class DatabaseSeeder extends Seeder
                 'country' => 'India',
                 'month' => 'October',
                 'description' => 'Stunning white marble mausoleum and symbol of eternal love.',
-                'image_url' => 'https://via.placeholder.com/400x300/F5F5DC/FFFFFF?text=Taj+Mahal',
+                'image_url' => 'https://images.unsplash.com/photo-1564507592333-c60657eea523?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
                 'rating' => 4.6,
                 'location' => 'Agra, India',
                 'highlights' => 'Architecture, Photography, Historical significance'
@@ -198,7 +198,7 @@ class DatabaseSeeder extends Seeder
                 'country' => 'Chile',
                 'month' => 'March',
                 'description' => 'Remote island famous for mysterious giant stone statues called Moai.',
-                'image_url' => 'https://via.placeholder.com/400x300/8B7355/FFFFFF?text=Easter+Island',
+                'image_url' => 'https://images.unsplash.com/photo-1581833971358-2c8b550f87b3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
                 'rating' => 4.5,
                 'location' => 'Rapa Nui, Chile',
                 'highlights' => 'Moai statues, Polynesian culture, Archaeological sites'
@@ -208,7 +208,7 @@ class DatabaseSeeder extends Seeder
                 'country' => 'Zambia',
                 'month' => 'May',
                 'description' => 'One of the world\'s largest waterfalls known as "The Smoke that Thunders".',
-                'image_url' => 'https://via.placeholder.com/400x300/87CEEB/FFFFFF?text=Victoria+Falls',
+                'image_url' => 'https://images.unsplash.com/photo-1547036967-23d11aacaee0?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
                 'rating' => 4.8,
                 'location' => 'Livingstone, Zambia',
                 'highlights' => 'Waterfall viewing, Bungee jumping, River cruises'
@@ -218,7 +218,7 @@ class DatabaseSeeder extends Seeder
                 'country' => 'Brazil',
                 'month' => 'September',
                 'description' => 'World\'s largest tropical rainforest with incredible biodiversity.',
-                'image_url' => 'https://via.placeholder.com/400x300/228B22/FFFFFF?text=Amazon',
+                'image_url' => 'https://images.unsplash.com/photo-1544551763-46a013bb70d5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
                 'rating' => 4.7,
                 'location' => 'Amazon Basin, Brazil',
                 'highlights' => 'Wildlife spotting, Jungle trekking, Indigenous culture'

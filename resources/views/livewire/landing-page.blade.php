@@ -3,64 +3,69 @@
     <section class="hero-section">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-lg-8 text-center text-white">
+                <div class="col-lg-10 text-center">
                     <h1 class="display-4 fw-bold mb-4">
-                        <i class="fas fa-palm-tree me-3"></i>Discover Paradise
+                        Discover Your Next Destination
                     </h1>
                     <p class="lead mb-5">
-                        Explore the world's most breathtaking destinations and create unforgettable memories
+                        Explore carefully curated travel destinations and plan your perfect getaway
                     </p>
                     
                     <!-- Search Section -->
-                    <div class="tropical-card p-4 mb-4">
+                    <div class="professional-card mb-4">
                         <form wire:submit.prevent="search">
                             <div class="row g-3 align-items-end">
                                 <div class="col-md-3">
-                                    <label class="form-label text-dark fw-semibold">Search by</label>
-                                    <select wire:model="searchType" class="form-select tropical-search-bar">
+                                    <label class="form-label fw-semibold">Search by</label>
+                                    <select wire:model="searchType" class="form-select">
                                         <option value="name">Destination Name</option>
                                         <option value="country">Country</option>
                                     </select>
                                 </div>
                                 <div class="col-md-6">
-                                    <label class="form-label text-dark fw-semibold">Find your dream destination</label>
+                                    <label class="form-label fw-semibold">Find destinations</label>
                                     <input type="text" 
                                            wire:model="search" 
-                                           class="form-control tropical-search-bar" 
-                                           placeholder="e.g., Boracay, Philippines, Beach..."
+                                           class="form-control" 
+                                           placeholder="Enter destination or country..."
                                            required>
                                 </div>
                                 <div class="col-md-3">
-                                    <button type="submit" class="btn tropical-btn-primary w-100">
-                                        <i class="fas fa-search me-2"></i>Explore
+                                    <button type="submit" class="btn btn-professional w-100">
+                                        <i class="fas fa-search me-2"></i>Search
                                     </button>
                                 </div>
                             </div>
                         </form>
                     </div>
-                    
-                    <div class="row text-center mt-5">
-                        <div class="col-md-4 mb-3">
-                            <div class="tropical-card p-3">
-                                <i class="fas fa-map-marked-alt text-warning fa-2x mb-2"></i>
-                                <h5 class="text-dark">20+ Destinations</h5>
-                                <p class="text-muted mb-0">Handpicked locations</p>
-                            </div>
-                        </div>
-                        <div class="col-md-4 mb-3">
-                            <div class="tropical-card p-3">
-                                <i class="fas fa-star text-warning fa-2x mb-2"></i>
-                                <h5 class="text-dark">Top Rated</h5>
-                                <p class="text-muted mb-0">5-star experiences</p>
-                            </div>
-                        </div>
-                        <div class="col-md-4 mb-3">
-                            <div class="tropical-card p-3">
-                                <i class="fas fa-camera text-warning fa-2x mb-2"></i>
-                                <h5 class="text-dark">Instagram Ready</h5>
-                                <p class="text-muted mb-0">Perfect photo spots</p>
-                            </div>
-                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="professional-card text-center">
+                        <i class="fas fa-map-marked-alt text-primary fa-2x mb-3"></i>
+                        <h5 class="fw-semibold">20+ Destinations</h5>
+                        <p class="text-muted mb-0">Handpicked locations worldwide</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="professional-card text-center">
+                        <i class="fas fa-star text-warning fa-2x mb-3"></i>
+                        <h5 class="fw-semibold">Top Rated</h5>
+                        <p class="text-muted mb-0">Highly rated experiences</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="professional-card text-center">
+                        <i class="fas fa-users text-success fa-2x mb-3"></i>
+                        <h5 class="fw-semibold">Expert Curated</h5>
+                        <p class="text-muted mb-0">Professionally selected destinations</p>
                     </div>
                 </div>
             </div>
@@ -68,34 +73,34 @@
     </section>
 
     <!-- Features Section -->
-    <section class="py-5">
+    <section class="py-5 bg-light">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center mb-5">
-                    <h2 class="text-white fw-bold">Why Choose Tourism App?</h2>
-                    <p class="text-white-50">Your gateway to extraordinary adventures</p>
+                    <h2 class="fw-bold">Why Choose Our Platform?</h2>
+                    <p class="text-muted">Your trusted partner in travel planning</p>
                 </div>
             </div>
             <div class="row g-4">
                 <div class="col-lg-4">
-                    <div class="tropical-card p-4 h-100 text-center">
-                        <i class="fas fa-globe-asia text-primary fa-3x mb-3"></i>
-                        <h4 class="text-dark mb-3">Global Destinations</h4>
-                        <p class="text-muted">Discover amazing places from around the world, carefully curated for the best travel experiences.</p>
+                    <div class="professional-card h-100">
+                        <i class="fas fa-globe text-primary fa-2x mb-3"></i>
+                        <h5 class="fw-semibold mb-3">Global Coverage</h5>
+                        <p class="text-muted">Access to destinations worldwide with detailed information and ratings.</p>
                     </div>
                 </div>
                 <div class="col-lg-4">
-                    <div class="tropical-card p-4 h-100 text-center">
-                        <i class="fas fa-heart text-danger fa-3x mb-3"></i>
-                        <h4 class="text-dark mb-3">Personalized Experience</h4>
-                        <p class="text-muted">Get recommendations based on your preferences and discover destinations that match your travel style.</p>
+                    <div class="professional-card h-100">
+                        <i class="fas fa-shield-alt text-success fa-2x mb-3"></i>
+                        <h5 class="fw-semibold mb-3">Trusted Information</h5>
+                        <p class="text-muted">Verified and up-to-date destination data from reliable sources.</p>
                     </div>
                 </div>
                 <div class="col-lg-4">
-                    <div class="tropical-card p-4 h-100 text-center">
-                        <i class="fas fa-users text-success fa-3x mb-3"></i>
-                        <h4 class="text-dark mb-3">Travel Community</h4>
-                        <p class="text-muted">Join a community of travelers and share your experiences with fellow adventure seekers.</p>
+                    <div class="professional-card h-100">
+                        <i class="fas fa-clock text-warning fa-2x mb-3"></i>
+                        <h5 class="fw-semibold mb-3">Easy Planning</h5>
+                        <p class="text-muted">Quick and efficient way to discover and plan your next adventure.</p>
                     </div>
                 </div>
             </div>
