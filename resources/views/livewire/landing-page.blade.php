@@ -9,30 +9,9 @@
                 Explore carefully curated travel destinations and plan your perfect getaway
             </p>
 
-            <!-- Search Section -->
-            <div class="professional-card mb-4 w-75">
-                <form wire:submit.prevent="search">
-                    <div class="row g-3 align-items-end">
-                        <div class="col-md-3">
-                            <label class="form-label fw-semibold text-white">Search by</label>
-                            <select wire:model="searchType" class="form-select">
-                                <option value="name">Destination Name</option>
-                                <option value="country">Country</option>
-                            </select>
-                        </div>
-                        <div class="col-md-6">
-                            <label class="form-label fw-semibold text-white">Find destinations</label>
-                            <input type="text" wire:model="search" class="form-control"
-                                placeholder="Enter destination or country..." required>
-                        </div>
-                        <div class="col-md-3">
-                            <button type="submit" class="btn btn-professional w-100">
-                                <i class="fas fa-search me-2"></i>Search
-                            </button>
-                        </div>
-                    </div>
-                </form>
-            </div>
+            <li class="btn btn-outline-light">
+                <a class="nav-link" href="{{ route('spots.list') }}">Start Now</a>
+            </li>
         </div>
     </section>
 
