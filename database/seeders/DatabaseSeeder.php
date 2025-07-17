@@ -38,7 +38,7 @@ class DatabaseSeeder extends Seeder
                 'country' => 'Philippines',
                 'month' => 'March',
                 'description' => 'UNESCO World Heritage site featuring an underground river through limestone karst.',
-                'image_url' => 'https://images.unsplash.com/photo-1537953773345-d172ccf13cf1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+                'image_url' => "https://whc.unesco.org/uploads/thumbs/site_0652_0001-1000-665-20151105151728.jpg",
                 'rating' => 4.9,
                 'location' => 'Puerto Princesa, Palawan',
                 'highlights' => 'Cave exploration, Wildlife viewing, Boat tours'
@@ -133,16 +133,16 @@ class DatabaseSeeder extends Seeder
                 'location' => 'Alberta, Canada',
                 'highlights' => 'Hiking, Canoeing, Mountain climbing'
             ],
-            // [
-            //     'name' => 'Petra Jordan',
-            //     'country' => 'Jordan',
-            //     'month' => 'November',
-            //     'description' => 'Ancient city carved into rose-colored sandstone cliffs.',
-            //     'image_url' => 'https://images.unsplash.com/photo-1539650116574-75c0c6d73469?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-            //     'rating' => 4.7,
-            //     'location' => 'Ma\'an Governorate, Jordan',
-            //     'highlights' => 'Archaeological sites, Desert landscapes, Historical tours'
-            // ],
+            [
+                'name' => 'Petra Jordan',
+                'country' => 'Jordan',
+                'month' => 'November',
+                'description' => 'Ancient city carved into rose-colored sandstone cliffs.',
+                'image_url' => 'https://images.unsplash.com/photo-1539650116574-75c0c6d73469?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+                'rating' => 4.7,
+                'location' => 'Ma\'an Governorate, Jordan',
+                'highlights' => 'Archaeological sites, Desert landscapes, Historical tours'
+            ],
             [
                 'name' => 'Table Mountain Cape Town',
                 'country' => 'South Africa',
@@ -153,16 +153,16 @@ class DatabaseSeeder extends Seeder
                 'location' => 'Cape Town, South Africa',
                 'highlights' => 'Cable car rides, Hiking trails, Ocean views'
             ],
-            // [
-            //     'name' => 'Angkor Wat',
-            //     'country' => 'Cambodia',
-            //     'month' => 'December',
-            //     'description' => 'Magnificent ancient temple complex and archaeological wonder.',
-            //     'image_url' => 'https://images.unsplash.com/photo-1539016662988-1de819d6a4e6?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-            //     'rating' => 4.8,
-            //     'location' => 'Siem Reap, Cambodia',
-            //     'highlights' => 'Temple exploration, Sunrise views, Historical significance'
-            // ],
+            [
+                'name' => 'Angkor Wat',
+                'country' => 'Cambodia',
+                'month' => 'December',
+                'description' => 'Magnificent ancient temple complex and archaeological wonder.',
+                'image_url' => 'https://images.unsplash.com/photo-1539016662988-1de819d6a4e6?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+                'rating' => 4.8,
+                'location' => 'Siem Reap, Cambodia',
+                'highlights' => 'Temple exploration, Sunrise views, Historical significance'
+            ],
             [
                 'name' => 'Galapagos Islands',
                 'country' => 'Ecuador',
