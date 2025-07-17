@@ -28,7 +28,7 @@ class DatabaseSeeder extends Seeder
                 'country' => 'Philippines',
                 'month' => 'December',
                 'description' => 'Famous white sand beach with crystal clear waters and vibrant nightlife.',
-                'image_url' => 'https://images.unsplash.com/photo-1544551763-46a013bb70d5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+                'image_url' => 'https://boracayinformer.com/wp-content/uploads/2024/10/inbound8053735243835763425-1080x560.jpg',
                 'rating' => 4.8,
                 'location' => 'Aklan, Philippines',
                 'highlights' => 'Water sports, Beach parties, Sunset sailing'
@@ -48,7 +48,7 @@ class DatabaseSeeder extends Seeder
                 'country' => 'Indonesia',
                 'month' => 'June',
                 'description' => 'Stunning ancient rice terraces carved into volcanic hillsides.',
-                'image_url' => 'https://images.unsplash.com/photo-1518548419970-58e3b4079ab2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+                'image_url' => 'https://media.cntraveler.com/photos/5e35bdf00e2bfd0008a03691/16:9/w_2240,c_limit/Tegallalang-GettyImages-515480864.jpg',
                 'rating' => 4.7,
                 'location' => 'Jatiluwih, Bali',
                 'highlights' => 'Photography, Cultural tours, Traditional villages'
@@ -98,7 +98,7 @@ class DatabaseSeeder extends Seeder
                 'country' => 'Iceland',
                 'month' => 'January',
                 'description' => 'Spectacular northern lights dancing across the Arctic sky.',
-                'image_url' => 'https://images.unsplash.com/photo-1483347756197-71ef80e95f73?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+                'image_url' => 'https://res.cloudinary.com/icelandtours/g_auto,f_auto,c_fill,w_2048,q_auto:good/northern_lights_above_glacier_lagoon_v2osk_unsplash_7d39ca647f.jpg',
                 'rating' => 4.8,
                 'location' => 'Reykjavik, Iceland',
                 'highlights' => 'Northern lights, Hot springs, Glacier tours'
@@ -108,7 +108,7 @@ class DatabaseSeeder extends Seeder
                 'country' => 'Tanzania',
                 'month' => 'August',
                 'description' => 'World-famous wildlife reserve with the Great Migration.',
-                'image_url' => 'https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+                'image_url' => 'https://www.safariventures.com/wp-content/uploads/Untitled-design-1-1.png',
                 'rating' => 4.9,
                 'location' => 'Northern Tanzania',
                 'highlights' => 'Wildlife viewing, Great migration, Balloon safaris'
@@ -118,7 +118,7 @@ class DatabaseSeeder extends Seeder
                 'country' => 'Japan',
                 'month' => 'April',
                 'description' => 'Beautiful cherry blossom season in Japan\'s bustling capital.',
-                'image_url' => 'https://images.unsplash.com/photo-1522383225653-ed111181a951?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+                'image_url' => 'https://hips.hearstapps.com/hmg-prod/images/fuji-and-sakura-royalty-free-image-144483163-1562593125.jpg',
                 'rating' => 4.7,
                 'location' => 'Tokyo, Japan',
                 'highlights' => 'Hanami festivals, Traditional gardens, City culture'
@@ -128,7 +128,7 @@ class DatabaseSeeder extends Seeder
                 'country' => 'Canada',
                 'month' => 'July',
                 'description' => 'Pristine mountain wilderness with turquoise lakes and glacial peaks.',
-                'image_url' => 'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+                'image_url' => 'https://upload.wikimedia.org/wikipedia/commons/c/c5/Moraine_Lake_17092005.jpg',
                 'rating' => 4.8,
                 'location' => 'Alberta, Canada',
                 'highlights' => 'Hiking, Canoeing, Mountain climbing'
@@ -138,7 +138,7 @@ class DatabaseSeeder extends Seeder
                 'country' => 'Jordan',
                 'month' => 'November',
                 'description' => 'Ancient city carved into rose-colored sandstone cliffs.',
-                'image_url' => 'https://images.unsplash.com/photo-1539650116574-75c0c6d73469?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+                'image_url' => 'https://theworldtravelguy.com/wp-content/uploads/2019/06/DSCF5609.jpg',
                 'rating' => 4.7,
                 'location' => 'Ma\'an Governorate, Jordan',
                 'highlights' => 'Archaeological sites, Desert landscapes, Historical tours'
@@ -158,7 +158,7 @@ class DatabaseSeeder extends Seeder
                 'country' => 'Cambodia',
                 'month' => 'December',
                 'description' => 'Magnificent ancient temple complex and archaeological wonder.',
-                'image_url' => 'https://images.unsplash.com/photo-1539016662988-1de819d6a4e6?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+                'image_url' => 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/20171126_Angkor_Wat_4712_DxO.jpg/2880px-20171126_Angkor_Wat_4712_DxO.jpg',
                 'rating' => 4.8,
                 'location' => 'Siem Reap, Cambodia',
                 'highlights' => 'Temple exploration, Sunrise views, Historical significance'
@@ -168,7 +168,7 @@ class DatabaseSeeder extends Seeder
                 'country' => 'Ecuador',
                 'month' => 'June',
                 'description' => 'Unique volcanic islands with endemic wildlife and pristine nature.',
-                'image_url' => 'https://images.unsplash.com/photo-1544551763-77ef2d0cfc6c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+                'image_url' => 'https://res.cloudinary.com/enchanting/q_30,f_auto,c_mfit,w_1400,h_1400/tcs-web/2023/11/shutterstock_1309505530.jpg',
                 'rating' => 4.9,
                 'location' => 'Galapagos Province, Ecuador',
                 'highlights' => 'Wildlife photography, Snorkeling, Scientific tours'
@@ -198,7 +198,7 @@ class DatabaseSeeder extends Seeder
                 'country' => 'Chile',
                 'month' => 'March',
                 'description' => 'Remote island famous for mysterious giant stone statues called Moai.',
-                'image_url' => 'https://images.unsplash.com/photo-1581833971358-2c8b550f87b3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+                'image_url' => 'https://magazine.columbia.edu/sites/default/files/styles/wysiwyg_full_width_image/public/2024-08/Exp_easter-island.jpg?itok=mO1e5TJJ',
                 'rating' => 4.5,
                 'location' => 'Rapa Nui, Chile',
                 'highlights' => 'Moai statues, Polynesian culture, Archaeological sites'
@@ -208,7 +208,7 @@ class DatabaseSeeder extends Seeder
                 'country' => 'Zambia',
                 'month' => 'May',
                 'description' => 'One of the world\'s largest waterfalls known as "The Smoke that Thunders".',
-                'image_url' => 'https://images.unsplash.com/photo-1547036967-23d11aacaee0?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+                'image_url' => 'https://cdn.shortpixel.ai/spai/q_glossy+ret_img+to_auto/www.discoverafrica.com/wp-content/uploads/2016/03/GettyImages-1081365424-1920x1080.jpg',
                 'rating' => 4.8,
                 'location' => 'Livingstone, Zambia',
                 'highlights' => 'Waterfall viewing, Bungee jumping, River cruises'
@@ -218,7 +218,7 @@ class DatabaseSeeder extends Seeder
                 'country' => 'Brazil',
                 'month' => 'September',
                 'description' => 'World\'s largest tropical rainforest with incredible biodiversity.',
-                'image_url' => 'https://images.unsplash.com/photo-1544551763-46a013bb70d5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+                'image_url' => 'https://images.nationalgeographic.org/image/upload/t_edhub_resource_key_image/v1638890315/EducationHub/photos/amazon-river-basin.jpg',
                 'rating' => 4.7,
                 'location' => 'Amazon Basin, Brazil',
                 'highlights' => 'Wildlife spotting, Jungle trekking, Indigenous culture'
