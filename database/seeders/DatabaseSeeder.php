@@ -222,6 +222,16 @@ class DatabaseSeeder extends Seeder
                 'rating' => 4.7,
                 'location' => 'Amazon Basin, Brazil',
                 'highlights' => 'Wildlife spotting, Jungle trekking, Indigenous culture'
+            ],
+            [
+                'name' => 'Walt Disney World Resort',
+                'country' => 'United States',
+                'month' => 'December',
+                'description' => 'Walt Disney World Resort is a world-class entertainment and recreation destination featuring four of the most popular theme parks from around the globe, two thrilling water parks, nearly 29,000 hotel rooms, a sports complex, several golf courses and Disney Springs—a metropolis of shopping, dining and entertainment.',
+                'image_url' => 'https://ktla.com/wp-content/uploads/sites/4/2021/06/AP21173416004367.jpg?w=2560&h=1440&crop=1',
+                'rating' => 4.7,
+                'location' => 'Lake Buena Vista, Florida',
+                'highlights' => 'Theme parks, Entertainment, Family fun'
             ]
         ];
 
