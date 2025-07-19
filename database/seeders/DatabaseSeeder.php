@@ -232,6 +232,56 @@ class DatabaseSeeder extends Seeder
                 'rating' => 4.7,
                 'location' => 'Lake Buena Vista, Florida',
                 'highlights' => 'Theme parks, Entertainment, Family fun'
+            ],
+            [
+                'name' => 'Mayon Volcano',
+                'country' => 'Philippines',
+                'month' => 'March',
+                'description' => 'Mayon Volcano is an active stratovolcano known for its perfect cone shape and stunning landscapes.',
+                'image_url' => 'https://upload.wikimedia.org/wikipedia/commons/e/e1/Mayon_Volcano_as_of_March_2020.jpg',
+                'rating' => 4.7,
+                'location' => 'Albay, Philippines',
+                'highlights' => 'Volcano trekking, Scenic views, Photography'
+            ],
+            [
+                'name' => 'Louvre Museum',
+                'country' => 'France',
+                'month' => 'March',
+                'description' => 'The Louvre Museum is the world\'s largest art museum and a historic monument in Paris, France.',
+                'image_url' => 'https://images.squarespace-cdn.com/content/v1/5edbbcf3253cf824ff6fd101/1746622908134-MQR1S54WLIG8YDQQAB3Y/1.jpg?format=2500w',
+                'rating' => 4.7,
+                'location' => 'Paris, France',
+                'highlights' => 'Art collections, Historic architecture, Cultural significance'
+            ],
+            [
+                'name' => 'Universal Studios Orlando',
+                'country' => 'United States',
+                'month' => 'October',
+                'description' => 'Universal Studios Orlando is a theme park resort in Orlando, Florida, featuring rides and attractions based on popular movies and TV shows.',
+                'image_url' => 'https://image-tc.galaxy.tf/wijpeg-6f8wefowfky48d2qo9wwygvs9/universal_wide.jpg?crop=0%2C50%2C980%2C551&width=960',
+                'rating' => 4.7,
+                'location' => 'Orlando, Florida',
+                'highlights' => 'Thrilling rides, Movie attractions, Family entertainment'
+            ],
+            [
+                'name' => 'Christ the Redeemer',
+                'country' => 'Brazil',
+                'month' => 'January',
+                'description' => 'Christ the Redeemer is an iconic statue of Jesus Christ in Rio de Janeiro, Brazil, known for its panoramic views of the city.',
+                'image_url' => 'https://transcode-v2.app.engoo.com/image/fetch/f_auto,c_limit,w_1280,h_800,dpr_2/https://assets.app.engoo.com/organizations/5d2656f1-9162-461d-88c7-b2505623d8cb/images/6XY2BQvQLh8Rtjop9TTPcQ.jpeg',
+                'rating' => 4.7,
+                'location' => 'Rio de Janeiro, Brazil',
+                'highlights' => 'Iconic statue, Panoramic views, Cultural significance'
+            ],
+            [
+                'name' => 'Grand Canyon',
+                'country' => 'United States',
+                'month' => 'April',
+                'description' => 'The Grand Canyon is a massive canyon in Arizona, USA, known for its stunning geological formations and vibrant colors.',
+                'image_url' => 'https://res.cloudinary.com/aenetworks/image/upload/c_fill,ar_2,w_3840,h_1920,g_auto/dpr_auto/f_auto/q_auto:eco/v1/gettyimages-858637934?_a=BAVAZGDX0',
+                'rating' => 4.8,
+                'location' => 'Grand Canyon, Arizona, United States',
+                'highlights' => 'Geological formations, Scenic views, Outdoor activities'
             ]
         ];
 
