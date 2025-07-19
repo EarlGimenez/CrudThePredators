@@ -1,11 +1,11 @@
 <div>
-    
+
     <section class="hero-section vh-100">
         <div class="container h-100 d-flex flex-column justify-content-center align-items-center text-center">
             <h1 class="display-4 fw-bold mb-2 text-white">
                 Discover Your Next Destination
             </h1>
-            <p class="lead mb-5 text-white">
+            <p class="lead mb-4 text-white">
                 Explore carefully curated travel destinations and plan your perfect getaway
             </p>
 
@@ -15,7 +15,7 @@
         </div>
     </section>
 
-    
+
     <section class="py-5">
         <div class="container">
             <div class="row g-4">
