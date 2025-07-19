@@ -15,7 +15,12 @@
     <nav class="navbar navbar-expand-lg navbar-light fixed-top">
         <div class="container">
             <a class="navbar-brand" href="{{ route('landing') }}">
-                <i class="fas fa-globe-americas me-2"></i>Horizons
+                {{-- <i class="fas fa-globe-americas me-2"> --}}
+                <i class="fa-solid fa-location-arrow"></i>
+                {{-- <img src="{{ asset('images/location.png') }}" alt="Logo" class="logo"> --}}
+                {{-- <i class="fa-light fa-location-arrow"></i> --}}
+                {{-- <i class="fa-regular fa-location-arrow"></i> --}}
+                </i>  Horizons
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
