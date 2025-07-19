@@ -6,7 +6,7 @@
                 Discover Your Next Destination
             </h1>
             <p class="lead mb-4 text-white">
-                Explore carefully curated travel destinations and plan your perfect getaway
+                Explore carefully curated travel destinations and plan your perfect getaway.
             </p>
 
             <li class="btn btn-outline-light">
