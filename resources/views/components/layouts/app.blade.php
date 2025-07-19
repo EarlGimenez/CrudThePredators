@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <!-- Navigation -->
+    
     <nav class="navbar navbar-expand-lg navbar-light fixed-top">
         <div class="container">
             <a class="navbar-brand" href="{{ route('landing') }}">
@@ -33,7 +33,7 @@
         </div>
     </nav>
 
-    <!-- Main Content -->
+    
     <main class="mt-0">
         {{ $slot }}
     </main>

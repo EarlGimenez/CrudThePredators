@@ -1,6 +1,6 @@
 <div>
     <div class="container py-5">
-        <!-- Search Bar -->
+        
         <div class="row mb-5">
             <div class="col-lg-8 mx-auto">
                 <div class="professional-card">
@@ -31,7 +31,7 @@
             </div>
         </div>
 
-        <!-- Results Header -->
+        
         <div class="row mb-4">
             <div class="col-12">
                 <h2 class="fw-bold">
@@ -45,7 +45,7 @@
             </div>
         </div>
 
-        <!-- Spots Grid -->
+        
         <div class="row g-4">
             @forelse($spots as $spot)
                 <div class="col-lg-4 col-md-6">
@@ -99,7 +99,7 @@
             @endforelse
         </div>
 
-        <!-- Pagination -->
+        
         @if($spots->hasPages())
             <div class="row mt-5">
                 <div class="col-12 d-flex justify-content-center">

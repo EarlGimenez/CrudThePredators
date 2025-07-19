@@ -2,21 +2,16 @@
     <div class="container py-5">
         <div class="row">
             <div class="col-lg-8 mx-auto">
-                <!-- Back Button -->
                 <div class="mb-4">
                     <a href="{{ route('spots.list') }}" class="btn btn-outline-light">
                         <i class="fas fa-arrow-left me-2"></i>Back to Destinations
                     </a>
                 </div>
 
-                <!-- Destination Card -->
+                
                 <div class="detail-card">
-                    <!-- Hero Image -->
                     <img src="{{ $spot->image_url }}" class="w-100" alt="{{ $spot->name }}">
-                    
-                    <!-- Content -->
                     <div class="p-4">
-                        <!-- Header -->
                         <div class="row align-items-start mb-4">
                             <div class="col-md-8">
                                 <h1 class="fw-bold text-primary mb-2">{{ $spot->name }}</h1>
@@ -45,7 +40,7 @@
                             </div>
                         </div>
 
-                        <!-- Description -->
+
                         <div class="row mb-4">
                             <div class="col-12">
                                 <h3 class="fw-semibold mb-3">
@@ -56,7 +51,7 @@
                             </div>
                         </div>
 
-                        <!-- Highlights -->
+            
                         @if($spot->highlights)
                             <div class="row mb-4">
                                 <div class="col-12">
@@ -81,7 +76,7 @@
                             </div>
                         @endif
 
-                        <!-- Travel Tips -->
+       
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="tropical-card p-3 h-100">
@@ -131,7 +126,7 @@
                             </div>
                         </div>
 
-                        <!-- Action Buttons -->
+              
                         <div class="row mt-4">
                             <div class="col-12 text-center">
                                 <a href="{{ route('spots.list') }}" class="btn tropical-btn-primary me-3">

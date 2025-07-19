@@ -1,5 +1,5 @@
 <div>
-    <!-- Hero Section -->
+    
     <section class="hero-section vh-100">
         <div class="container h-100 d-flex flex-column justify-content-center align-items-center text-center">
             <h1 class="display-4 fw-bold mb-2 text-white">
@@ -15,7 +15,7 @@
         </div>
     </section>
 
-    <!-- Stats Section -->
+    
     <section class="py-5">
         <div class="container">
             <div class="row g-4">
@@ -44,7 +44,7 @@
         </div>
     </section>
 
-    <!-- Features Section -->
+
     <section class="py-5 bg-light">
         <div class="container">
             <div class="row">
